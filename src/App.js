@@ -6,7 +6,7 @@ import { listNotes } from './graphql/queries';
 import { createNote as createNoteMutation, deleteNote as deleteNoteMutation } from './graphql/mutations';
 
 const initialFormState = { name: '', description: '' }
-
+/*
 function App() {
   const [notes, setNotes] = useState([]);
   const [formData, setFormData] = useState(initialFormState);
@@ -88,8 +88,8 @@ async function createNote() {
       <AmplifySignOut />
     </div>
   );
-}
-function test(){
+}*/
+function App(){
 return (
 <div className="Test">
 	<h1>TESTING</h1>
