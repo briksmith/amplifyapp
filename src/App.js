@@ -96,4 +96,4 @@ return (
 	</div>
 	);
 }
-export default withAuthenticator(test);
+export default withAuthenticator(App);
