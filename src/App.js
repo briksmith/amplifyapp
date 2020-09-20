@@ -89,5 +89,11 @@ async function createNote() {
     </div>
   );
 }
-
-export default withAuthenticator(App);
+function test(){
+return (
+<div className="Test">
+	<h1>TESTING</h1>
+	</div>
+	);
+}
+export default withAuthenticator(test);
